@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+}
+/*header*/
+section.header {
+  width: 1440px;
+  height: 500px;
+  outline: 0px solid red;
+  background-color: #ED4C5C;
+  background-attachment: fixed;
+  position: relative;
+  color: #FFFFFF;
+}
+.text1 {
+  width: 445px;
+  height: 195px;
+  outline: 0px solid rgb(18, 13, 13);
+  position: absolute;
+  left: 165px;
+  top: 122px;
+}
+.image {
+  width: 534px;
+  height: 311px;
+  outline: 0px solid rgb(10, 255, 116);
+  position: absolute;
+  left: 691px;
+  top: 94px;
+}
+
+/*img.rad {
+  border-radius: 90px;
+}*/
+.app {
+  width: 134px;
+  height: 32px;
+  outline: 0px solid red;
+  position: absolute;
+  left: 163px;
+  top: 357px;
+}
+
+
+
+/*middle*/
+section.middle {
+  width: 1440px;
+  height: 500px;
+  outline: 0px solid rgb(5, 250, 22);
+  background-color: #FFFFFF;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 50px;
+}
+.text2 {
+  width: 445px;
+  height: 160px;
+  outline: 0px solid red;
+  position: absolute;
+  left: 176px;
+  top: 117px;
+}
+.field {
+  width: 540px;
+  height: 305px;
+  outline: 0px solid red;
+  position: absolute;
+  left: 735px;
+  top: 117px;
+}
+input.name1,input.name2 {
+  width: 255px;
+  height: 60px;
+  border-radius: 5px; 
+  border: 1px solid #8C8C8C;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+input.name1{
+  position: absolute;
+  left: ; 0;
+  top: 0;
+}
+input.name2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+input.inf1,input.inf2 {
+  width:540px;
+  height:60px;
+  border-radius: 5px; 
+  border: 1px solid #8C8C8C;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+input.inf1 {
+  position: absolute;
+  left: 0;
+  top: 88px;
+}
+
+input.inf2 {
+  position: absolute;
+  left: 0px;
+  top: 176px;
+  background-image: url(img/ChevronDown.png);
+  background-repeat: no-repeat;
+  background-position: 500px 30px;
+}
+input.sub {
+  width:160px;
+  height:50px;
+  border-radius: 8px; 
+  background-color: #ED4C5C;
+  color: #F8BCC2;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/*footer*/
+section.footer {
+  width: 1440px;
+  height: 435px;
+  outline: 0px solid rgb(0, 242, 255);
+  background-color: #FAFAFA;
+  background-attachment: fixed;
+  position: relative;
+}
+.adress {
+  width: 259px;
+  height: 264px;
+  outline: 0px solid rgb(18, 13, 13);
+  position: absolute;
+  left: 161px;
+  top: 80px;
+}
+.service {
+  width: 254px;
+  height: 164px;
+  outline: 0px solid rgb(10, 255, 116);
+  position: absolute;
+  left: 450px;
+  top: 80px;
+}
+.touch {
+  width: 122px;
+  height: 128px;
+  outline: 0px solid red;
+  position: absolute;
+  left: 734px;
+  top: 80px;
+  background-image: url(img/Social.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.support {
+  width: 110px;
+  height: 22px;
+  outline: 0px solid rgb(18, 13, 13);
+  position: absolute;
+  left: 1022px;
+  top:80px;
+  
+}
+.card {
+  width: 216px;
+  height: 31px;
+  outline: 0px solid rgb(10, 255, 116);
+  position: absolute;
+  left: 1022px;
+  top: 155px;
+}
+
+h1,p {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+h1.heading {
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+margin-bottom: 45px;
+}
+h1.miding {
+  padding-bottom: 60px;
+}
+h3 {
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: left;
+color: #101010;
+margin-bottom: 40px;
+}
+p.heading {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+color: #FFFFFF;
+}
+
+p.miding {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+color: #000000;
+padding-bottom: 20px;
+}
+p.foot {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  margin-top: 128px;
+  }
+p.foot-adr {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #101010;
+line-height: 20px;
+}
+p.foot-tch {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  line-height: 22px;
+  }
+
+ul {
+  list-style-type: none;
+  font-size: 12px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+}
+li > a {
+  text-decoration: none;
+  line-height: 14px;
+  color: #101010;
+}
+/*.foot :last chaild {
+  margin-top: 100px;
+}*/
